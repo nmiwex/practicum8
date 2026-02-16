@@ -1,6 +1,6 @@
 text = input()
-repeat = None
+required = None
 for ch in text:
     if text.count(ch) == 3:
-        repeat = ch
-print(repeat)
+        required = ch
+print(required)

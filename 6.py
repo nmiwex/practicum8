@@ -1,4 +1,3 @@
 text = input()
 words = (text.split())
-words.reverse()
-print(' '.join(words))
+print(' '.join(words[::-1]))
